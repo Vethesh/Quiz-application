@@ -1,0 +1,157 @@
+body{
+ background-color: #faf2f2;
+}
+
+Card CardContent Typography{
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.App {
+  text-align: center;
+
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.navbar Typography{
+  color:black
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.main{
+  width: 20rem;
+  height: 25rem;
+  border: 1px solid;
+  margin: 20% 40%;
+  border-radius: 1rem;
+  box-shadow: 6px 6px 5px rgb(58, 56, 56);
+  background: linear-gradient(rgb(97, 155, 238),rgb(14, 12, 12));
+}
+
+.temp{
+  margin-top: 2rem;
+  margin-left: 4rem;
+  width: 12rem;
+  height: 12rem;
+  border: 1px solid;
+  border-radius: 50%;
+}
+
+.section{
+  margin-top: 5rem;
+    display: flex;
+    justify-content: space-around;
+}
+.section button{
+  width: 6rem;
+  height: 4rem;
+  border-radius: 1rem;
+  font-size: 2rem;
+}
+.temp h1{
+  margin-top: 40%;
+}
+
+
+
+.mn{
+  border: 1px solid;
+  width: 60rem;
+  height: 29rem;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20%;
+  margin-left: 20%;
+  margin-bottom: 5rem;
+  max-width: 1440px;
+  max-height: 500px;
+  border-radius: 2rem;
+  box-shadow: 4px 3px 4px rgb(58, 56, 56);
+  background:linear-gradient(rgba(0, 0, 0, 0.982),rgb(41, 2, 75));
+  opacity: 1;
+}
+
+.second-part{
+  margin-top: 2rem;
+    display: flex;
+}
+.anss{
+  display: grid;
+  margin-left: 20rem;
+}
+
+.anss button {
+  width: 20rem;
+  margin-bottom: 2rem;
+  height: 3rem;
+  margin-right: 1rem;
+  border-radius: 1rem;
+  color: white;
+  background-color: black;
+  border-color: white;
+}
+.anss button:hover{
+  color: white;
+  background: lightgreen;
+  transition:ease-out 1s;
+}
+.qsn{
+  margin-left: 2rem;
+  color: #ffffff;
+}
+
+.qsn .qsn_text{
+  width: 13rem;
+font-size: 2rem;
+  margin-top: 8rem;
+}
+
+.scr {
+
+    font-size: 2rem;
+    margin-top: 8rem;
+  color: #ffffff;
+}
+ .btn button{
+  width: 100%;
+    margin-bottom: 2rem;
+    height: 3rem;
+    margin-right: 1rem;
+    border-radius: 1rem;
+    color: white;
+    background-color: black;
+    border-color: white;
+    margin-top: 5rem;
+}
